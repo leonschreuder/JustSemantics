@@ -1,0 +1,13 @@
+{
+  "name": "JustSemantics",
+  "author": "Leon Schreuder",
+  "parentTheme": "Dark",
+  "dark": true,
+  "editorScheme": "/themes/JustSemantics.xml",
+  "colors": {
+  },
+
+  "ui": {
+  }
+}
+
