@@ -3,6 +3,9 @@
 # JustSemantics Changelog
 
 ## [Unreleased]
+- configure support for newer intellij versions
+
+## 1.0.1
 ### Fixed
 - Plugin description as requested by Jetbrains.
 
