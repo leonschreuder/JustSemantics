@@ -28,3 +28,6 @@ Plugin (?) to view the categories and properties of the Theme elements in the
 editor. (see video above)
 
 
+#### PsiViewer (plugin)
+
+View syntax highlighting elements in side window.

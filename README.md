@@ -1,44 +1,38 @@
+
 # JustSemantics
 
 ![Build](https://github.com/leonschreuder/JustSemantics/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [ ] Get familiar with the [template documentation][template].
-- [ ] Adjust the [pluginGroup](./gradle.properties), [plugin ID](./src/main/resources/META-INF/plugin.xml) and [sources package](./src/main/kotlin).
-- [ ] Adjust the plugin description in `README` (see [Tips][docs:plugin-description])
-- [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html?from=IJPluginTemplate).
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the `PLUGIN_ID` in the above README badges.
-- [ ] Set the [Plugin Signing](https://plugins.jetbrains.com/docs/intellij/plugin-signing.html?from=IJPluginTemplate) related [secrets](https://github.com/JetBrains/intellij-platform-plugin-template#environment-variables).
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html?from=IJPluginTemplate).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
-
 <!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
+Theme highlighting only variables, functions, etc. In other words, just the semantics.
 
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
+Let's face it, after your first hello world, you already know all of your
+language's keywords by heart. Hell, you then know them from most of the other
+languages too. Yet your editor is happily highlighting every `if` and `class`
+in bright colors like they need your full attention.
 
-To keep everything working, do not remove `<!-- ... -->` sections. 
+What we actually need my friend, is just the semantics. Everything else is
+replaced by 'yada yada' by our brain anyway. So this plugin provides a
+highlighting scheme that only makes the semantics pop out, with everything else
+in neutral colors. Try it! It might save your brain a few percent of attention
+juice and lets you focus on debugging the bad code that that amateur 'past
+you' wrote.
+
+After installing, enable it in the settings under [Editor] > [Color
+Scheme]. Pairs best with the "New UI" system theme.
 <!-- Plugin description end -->
+
 
 ## Installation
 
 - Using the IDE built-in plugin system:
-  
+
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "JustSemantics"</kbd> >
   <kbd>Install</kbd>
-  
+
 - Manually:
 
   Download the [latest release](https://github.com/leonschreuder/JustSemantics/releases/latest) and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
-
-
----
-Plugin based on the [IntelliJ Platform Plugin Template][template].
-
-[template]: https://github.com/JetBrains/intellij-platform-plugin-template
-[docs:plugin-description]: https://plugins.jetbrains.com/docs/intellij/plugin-user-experience.html#plugin-description-and-presentation
