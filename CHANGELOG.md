@@ -3,7 +3,9 @@
 # JustSemantics Changelog
 
 ## [Unreleased]
+### Fixed
 - configure support for newer intellij versions
+### Added
 - set github shields
 
 ## 1.0.1

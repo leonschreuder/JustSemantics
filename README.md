@@ -20,6 +20,12 @@ in neutral colors. Try it! It might save your brain a few percent of attention
 juice and lets you focus on debugging the bad code that that amateur 'past
 you' wrote.
 
+Warning: Highlighting like this is very language specific and needs a lot of
+tweaking before it makes sense. More to come, but currently configured for:
+
+- Kotlin
+- Java
+
 After installing, enable it in the settings under [Editor] > [Color
 Scheme]. Pairs best with the "New UI" system theme.
 <!-- Plugin description end -->
