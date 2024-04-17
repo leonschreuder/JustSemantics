@@ -2,8 +2,8 @@
 # JustSemantics
 
 ![Build](https://github.com/leonschreuder/JustSemantics/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/24175-justsemantics.svg)](https://plugins.jetbrains.com/plugin/24175-justsemantics)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/24175-justsemantics.svg)](https://plugins.jetbrains.com/plugin/24175-justsemantics)
 
 <!-- Plugin description -->
 Theme highlighting only variables, functions, etc. In other words, just the semantics.

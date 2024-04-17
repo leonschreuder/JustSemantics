@@ -4,6 +4,7 @@
 
 ## [Unreleased]
 - configure support for newer intellij versions
+- set github shields
 
 ## 1.0.1
 ### Fixed
