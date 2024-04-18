@@ -3,6 +3,8 @@
 # JustSemantics Changelog
 
 ## [Unreleased]
+
+## 1.0.2
 ### Fixed
 - configure support for newer intellij versions
 ### Added
