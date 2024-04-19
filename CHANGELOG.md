@@ -3,6 +3,7 @@
 # JustSemantics Changelog
 
 ## [Unreleased]
+- improve python-specific theme
 
 ## 1.0.2
 ### Fixed
