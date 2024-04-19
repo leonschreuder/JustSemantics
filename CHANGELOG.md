@@ -1,9 +1,24 @@
-<!-- Keep a Changelog guide -> https://keepachangelog.com -->
+<!-- Keep a Changelog guide -> https://keepachangelog.com
+
+### Added - for new features.
+### Changed - for changes in existing functionality.
+### Deprecated - for soon-to-be removed features.
+### Removed - for now removed features.
+### Fixed - for any bug fixes.
+### Security - in case of vulnerabilities.
+ -->
 
 # JustSemantics Changelog
 
 ## [Unreleased]
-- improve python-specific theme
+
+## 1.0.3
+### Fixed
+- Copy values of default Dark theme (extending didn't work correctly)
+### Added
+- python-specific theming
+### Changed
+- update installation notes
 
 ## 1.0.2
 ### Fixed

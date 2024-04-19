@@ -21,13 +21,12 @@ juice and lets you focus on debugging the bad code that that amateur 'past
 you' wrote.
 
 Warning: Highlighting like this is very language specific and needs a lot of
-tweaking before it makes sense. More to come, but currently configured for:
+tweaking before it makes sense. More to come, but currently acceptable for:
 
 - Kotlin
 - Java
+- Python
 
-After installing, enable it in the settings under [Editor] > [Color
-Scheme]. Pairs best with the "New UI" system theme.
 <!-- Plugin description end -->
 
 
